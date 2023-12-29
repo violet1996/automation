@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="org.saucedemo.Testcases.CheckoutTest">
+        <methods>
+          <include name="TestCheckout"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.saucedemo.Testcases.CheckoutTest -->
+      <class name="org.saucedemo.Testcases.CartTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TestCart"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.saucedemo.Testcases.CartTest -->
+      <class name="org.saucedemo.Testcases.ProductTest">
+        <methods>
+          <include name="TestProduct"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- org.saucedemo.Testcases.ProductTest -->
+      <class name="org.saucedemo.Testcases.MenuTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="menuTest"/>
+        </methods>
+      </class> <!-- org.saucedemo.Testcases.MenuTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
